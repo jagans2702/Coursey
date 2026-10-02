@@ -1,0 +1,22 @@
+[
+  { "id": 1, "title": "Introduction", "completed": false },
+  { "id": 2, "title": "Installing Python", "completed": false },
+  { "id": 3, "title": "Variables & Data Types", "completed": false },
+  { "id": 4, "title": "Operators", "completed": false },
+  { "id": 5, "title": "Strings", "completed": false },
+  { "id": 6, "title": "Lists", "completed": false },
+  { "id": 7, "title": "Tuples & Sets", "completed": false },
+  { "id": 8, "title": "Dictionaries", "completed": false },
+  { "id": 9, "title": "Conditionals", "completed": false },
+  { "id": 10, "title": "Loops", "completed": false },
+  { "id": 11, "title": "Functions", "completed": false },
+  { "id": 12, "title": "Modules & Packages", "completed": false },
+  { "id": 13, "title": "File Handling", "completed": false },
+  { "id": 14, "title": "Error Handling", "completed": false },
+  { "id": 15, "title": "OOP", "completed": false },
+  { "id": 16, "title": "Inheritance", "completed": false },
+  { "id": 17, "title": "Iterators & Generators", "completed": false },
+  { "id": 18, "title": "Decorators", "completed": false },
+  { "id": 19, "title": "Virtual Environments", "completed": false },
+  { "id": 20, "title": "Final Project", "completed": false }
+]

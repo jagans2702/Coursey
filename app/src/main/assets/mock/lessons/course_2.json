@@ -1,0 +1,18 @@
+[
+  { "id": 1, "title": "What is Generative AI", "completed": false },
+  { "id": 2, "title": "History of AI Models", "completed": false },
+  { "id": 3, "title": "Neural Network Basics", "completed": false },
+  { "id": 4, "title": "Transformers", "completed": false },
+  { "id": 5, "title": "Large Language Models", "completed": false },
+  { "id": 6, "title": "Tokens & Embeddings", "completed": false },
+  { "id": 7, "title": "Prompt Engineering", "completed": false },
+  { "id": 8, "title": "Few-Shot Prompting", "completed": false },
+  { "id": 9, "title": "Retrieval-Augmented Generation", "completed": false },
+  { "id": 10, "title": "Vector Databases", "completed": false },
+  { "id": 11, "title": "Fine-Tuning", "completed": false },
+  { "id": 12, "title": "Image Generation", "completed": false },
+  { "id": 13, "title": "AI Agents", "completed": false },
+  { "id": 14, "title": "Evaluating Model Output", "completed": false },
+  { "id": 15, "title": "Responsible AI", "completed": false },
+  { "id": 16, "title": "Capstone Project", "completed": false }
+]
