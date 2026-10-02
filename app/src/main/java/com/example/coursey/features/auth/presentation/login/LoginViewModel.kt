@@ -88,6 +88,7 @@ class LoginViewModel(
             isLoading = false,
             snackbarMessage = UserMessage(id = nextMessageId++, text = failure.message),
         )
+        is Failure.InvalidCredentials -> copy(isLoading = false, loginError = failure.message)
         else -> copy(isLoading = false, loginError = failure.message)
     }
 

@@ -27,10 +27,11 @@ class AuthMockRemoteDataSource(
         }
 
         for (index in 0 until users.length()) {
-            val user = users.getJSONObject(index)
-            val emailMatches = user.getString("email").equals(email, ignoreCase = true)
-            if (emailMatches && user.getString("password") == password) {
-                if (user.optBoolean("simulateServerError")) throw ServerException()
+            val user = users.optJSONObject(index) ?: continue
+            val emailMatches = user.optString(KEY_EMAIL).equals(email, ignoreCase = true)
+            val passwordMatches = user.optString(KEY_PASSWORD) == password
+            if (emailMatches && passwordMatches) {
+                if (user.optBoolean(KEY_SIMULATE_SERVER_ERROR)) throw ServerException()
                 return@withContext UserModel.fromJson(user)
             }
         }
@@ -38,6 +39,10 @@ class AuthMockRemoteDataSource(
     }
 
     private companion object {
+        const val KEY_EMAIL = "email"
+        const val KEY_PASSWORD = "password"
+        const val KEY_SIMULATE_SERVER_ERROR = "simulateServerError"
+
         const val MOCK_USERS_JSON = """
         {
           "users": [
