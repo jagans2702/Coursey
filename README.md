@@ -6,7 +6,8 @@
 
 * **Demo Video:** [[Video Link](https://drive.google.com/open?id=1lRhOgvm_jYhS2O6uT2J0KYMmZ90CeBjd&usp=drive_copy)]
 * **APK:** [[Download APK](https://drive.google.com/open?id=1VPCkO1BiNJWsWF-sstrPR_vBBP60bQy8&usp=drive_copy)]
-
+* **Email:** test@gmail.com 
+* **Password:** test@123
 ---
 
 ## 1. Architecture
